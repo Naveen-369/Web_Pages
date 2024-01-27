@@ -1,0 +1,44 @@
+html body{
+    background-color: black;
+}
+header{
+    color: white;
+    padding-left: 30px;
+    display: flex;
+    h1{
+        font-family: 'Bacasime Antique', serif;
+        font-family: 'Bilbo Swash Caps', cursive;
+        font-family: 'Elsie Swash Caps', serif;
+    }
+    nav{
+        font-family: 'Bacasime Antique', serif;
+        padding-left: 60%;
+        display: flex;
+        h2{
+            display: flex;
+            padding-left: 30px;
+        }
+    }
+}
+/*Css for article*/
+.Plans{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    section:hover{
+        transition: transform 0.9s ease;
+        transform: scale(1.1);
+    }
+    section{
+        img{
+            width: 100%;
+            height: 50%;
+            border-top-right-radius: 30px;
+            border-top-left-radius: 30px;
+        }
+        text-align: center;
+        width: 20%;
+        border-radius: 40px;
+        background-color: white;
+    }
+}
