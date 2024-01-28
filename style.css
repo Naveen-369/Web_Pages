@@ -26,7 +26,7 @@ header{
     justify-content: space-around;
     align-self: center;
     section:hover{
-        transition: transform 0.9s ease;
+        transition: transform 0.6s ease;
         transform: scale(1.1);
     }
     section{
@@ -40,5 +40,118 @@ header{
         width: 20%;
         border-radius: 40px;
         background-color: white;
+    }
+}
+main .Explore{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+footer{
+    color: white;
+    background-color: rgb(23, 41, 24);
+    display: flex;
+    justify-content: space-around;
+    section{
+        h4{
+            font-family: 'Elsie Swash Caps', serif;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+        }
+        p{
+            font-family: 'Playfair Display', serif;
+            font-size: 15px;
+        }
+    }
+}
+footer .Subscription{
+    input{
+    background-color: var(--colorFooter);
+    border: 0;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(0, 255, 17);
+    color: var(--colorFooterText);
+    width: 80%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    }
+    i:hover{
+        cursor: pointer;
+    }
+}
+.CR{
+    text-align: center;
+    color: rgb(143, 143, 143);
+    font-size: 15px;
+    margin: 0;
+    background-color: rgb(23, 41, 24);
+}
+main .Compare{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+.tablee{
+    display: flex;
+    justify-content: center;    
+    table, th, td {
+        border-collapse: collapse;
+        font-size: 30px;
+        padding: 10px;
+    }
+    th{
+        font-size: 45px;
+        background: rgba(188, 143, 143, 0.540);
+    }
+    td:nth-child(n+2) {
+        padding-left: 100px;
+        text-align: center;
+    }
+    th:nth-child(n+2) {
+        padding-left: 100px;
+        text-align: center;
+    }
+    td:nth-child(1){
+        width:300px
+    }
+    tr:nth-child(even){
+        background-color: rgba(188, 143, 143, 0.396);
+    }
+}
+main .Payment{
+    text-align: center;
+    color: whitesmoke;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+.PaymentOptions{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    img{
+    padding:20px 60px 20px 50px;
+    background:rgba(248, 248, 248, 0.112);
+    }    
+}
+#AppendHere{
+    display: flex;
+    justify-content: space-around;
+    input{
+        border: 3px solid rgb(0, 255, 17);
+        border-radius: 30px;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    h5{
+        font-family: 'Aref Ruqaa Ink', serif;
+        font-size: 30px;
+        color:white;
     }
 }
