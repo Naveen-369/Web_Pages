@@ -155,3 +155,32 @@ main .Payment{
         color:white;
     }
 }
+#wrapper{
+    font-family: 'Aref Ruqaa Ink', serif;
+    font-size: 30px;
+    color:rgb(0, 255, 17);
+    text-align: center;
+    input{
+        border: 3px solid rgb(0, 255, 17);
+        border-radius: 30px;
+        text-align: center;
+        padding: 5px 5px 5px 5px;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    button{
+        background-color:  rgb(0, 255, 17);
+        border : 3px solid white;
+        color: black;
+        border-radius: 30px;
+        text-align: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-left: 30px;
+        font-size: 30px;
+        font-family: 'Dancing Script', cursive;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+}
