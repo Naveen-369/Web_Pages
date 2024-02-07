@@ -1,0 +1,115 @@
+html body{
+    background-color: black;
+    margin: 0;
+}
+/*Header Styling*/
+header{
+    color: white;
+    padding-left: 30px;
+    display: flex;
+    h1{
+        font-family: 'Bacasime Antique', serif;
+        font-family: 'Bilbo Swash Caps', cursive;
+        font-family: 'Elsie Swash Caps', serif;
+    }
+    nav{
+        font-family: 'Bacasime Antique', serif;
+        padding-left: 60%;
+        display: flex;
+        h2{
+            display: flex;
+            padding-left: 30px;
+        }
+    }
+}
+
+/*Styling for the main body*/
+.Mtext{
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    font-family: 'Protest Riot', sans-serif;
+    margin: 0;
+    margin-bottom: 30px;
+}
+main form{
+    color: white;
+    font-size: 40px;
+    padding: 50px;
+    border-radius: 50px;
+    background-color: rgb(23, 41, 24);
+}
+main form input{
+    padding: 10px 10px 10px 20px;
+    font-size: 30px;
+    border-radius: 30px;
+    font-family: 'Playfair Display', serif;
+}
+fieldset{
+    border: 3px double whitesmoke;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+button{
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 40px;
+    font-family: 'Protest Revolution', sans-serif;
+    background-color: rgb(23, 41, 24);
+    color: white;
+    border-radius: 30px;
+    border: 2px double whitesmoke   ;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/*Styling for  footer*/
+footer{
+    color: white;
+    background-color: rgb(23, 41, 24);
+    display: flex;
+    justify-content: space-around;
+    section{
+        h4{
+            font-family: 'Elsie Swash Caps', serif;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+        }
+        p{
+            font-family: 'Playfair Display', serif;
+            font-size: 15px;
+        }
+    }
+}
+footer .Subscription{
+    input{
+    background-color: var(--colorFooter);
+    border: 0;
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(0, 255, 17);
+    color: var(--colorFooterText);
+    width: 80%;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    }
+    i:hover{
+        cursor: pointer;
+    }
+}
+.CR{
+    text-align: center;
+    color: rgb(143, 143, 143);
+    font-size: 15px;
+    margin: 0;
+    background-color: rgb(23, 41, 24);
+}
