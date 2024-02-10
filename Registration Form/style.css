@@ -44,6 +44,8 @@ main form input{
     font-size: 30px;
     border-radius: 30px;
     font-family: 'Playfair Display', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 fieldset{
     border: 3px double whitesmoke;
