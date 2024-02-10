@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Bilbo+Swash+Caps&family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Elsie+Swash+Caps&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6cd37eefbb.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Leafy</h1>
+        <nav>
+            <h2>Home</h2>
+            <h2>Services</h2>
+            <h2>Products</h2>
+            <h2>About us</h2>
+        </nav>
+    </header>
+    <!--Declaration of the Form  elements-->
+    
+    <h3 class="Mtext">Registration Form</h3>
+    <main>
+        <form method="get">
+            <fieldset class="Personal">
+                <legend>Personal Details</legend>
+                <label for="UserName">Username</label><br>
+                <input type="text" name="UserName" id="UserName" placeholder="Enter your name"><br>
+                <label for="Dob">Date of Birth</label><br>
+                <input type="date" name="Dob" id="Dob"><br>
+                <label for="Phonenumber">Phone Number</label><br>
+                <input type="tel" name="Phonenumber" id="Phonenumber" placeholder="Enter your Ph.No."><br>
+            </fieldset>
+            <fieldset class="Professional">
+                <legend>Professional Details</legend>
+                <label for="Email">Email ID</label><br>
+                <input type="email" name="Email" id="Email" placeholder="Enter your email id"><br>
+                <label for="Pass">Password</label><br>
+                <input type="password" name="Pass" id="Pass"><br>
+            </fieldset>
+            <div class="button">
+                <button type="reset">Reset</button>
+                <button type="submit" onclick="verify()">Submit</button>  
+            </div>      
+        </form>
+    </main>
+    <br>
+    <br><br>
+    <footer>
+        <section class="Contact">
+            <h4>Contact Us</h4>
+            <p>13 Bharathi street, Gardens</p>
+            <p>Ooty, TamilNadu.</p>
+            <p>Mon - Fri &rarr; 09:00 - 17:00</p>
+            <p>Sat - Sun &rarr; 09:30 - 13:30</p>
+            <br>
+            <p>165A Iconic Greens, District Six</p>
+            <p>Coimbatore, TamilNadu.</p>
+            <p>Mon - Fri &rarr; 09:00 - 17:00</p>
+            <p>Sat &rarr; 09:30 - 13:30</p>
+            <br>
+            <p>+91 95889 65226</p>
+        </section>
+        <section class="Browse">
+            <h4>Browse</h4>
+            <p>Shop</p>
+            <p>Blogs</p>
+            <p>Plant Care</p>
+            <p>FAQs</p>
+            <p>Products</p>
+            <p>About us</p>
+        </section>
+        <section class="Service">
+            <h4>Services</h4>
+            <p>Plants Rental Program</p>
+            <p>Plant Consultants</p>
+            <p>Plants Repotting</p>
+            <p>TCorporate Gifiting</p>
+        </section>
+        <section class="Legal">
+            <h4>Legal</h4>
+            <p>Plant Toxicity</p>
+            <p>Terms of Services</p>
+            <p>Terms of use</p>
+            <p>Privacy Policy</p>
+            <p>Return Policy</p>
+            <p>Shipping Policy</p>
+        </section>
+        <section class="Subscription">
+            <h4>Subscription</h4>
+            <p>Subscribe to our newsletter and get 10% off your first purchase</p>
+            <input type="text" id="mail" placeholder="Enter your mailID">
+            <i class="fa-solid fa-envelope" style="font-size: 45px;padding-left:20px;" onclick="location.reload()"></i>
+            </section>
+    </footer>
+    <p class="CR">Copyrights <sup>&copy;</sup> &ensp; 2024</p>
+</body>
+</html>
