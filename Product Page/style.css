@@ -2,7 +2,7 @@ html body{
     background-color: black;
     margin: 0;
 }
-/*Header Styling*/
+/*Style Declaration for the Header part*/
 header{
     color: white;
     padding-left: 30px;
@@ -22,58 +22,19 @@ header{
         }
     }
 }
-
-/*Styling for the main body*/
-.Mtext{
-    text-align: center;
-    color: white;
-    font-size: 80px;
-    font-family: 'Protest Riot', sans-serif;
-    margin: 0;
-    margin-bottom: 30px;
-}
-main form{
-    color: white;
-    font-size: 40px;
-    padding: 50px;
-    border-radius: 50px;
-    background-color: rgb(23, 41, 24);
-}
-main form input{
-    padding: 10px 10px 10px 20px;
-    font-size: 30px;
-    border-radius: 30px;
-    font-family: 'Playfair Display', serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-fieldset{
-    border: 3px double whitesmoke;
-    border-radius: 30px;
-    margin-bottom: 50px;
-}
-
 main{
+    background-color: white;
+}
+/*Style Declaration for the Main Content part*/
+main .Container{
     display: flex;
-    justify-content: center;
 }
-button{
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 40px;
-    font-family: 'Protest Revolution', sans-serif;
-    background-color: rgb(23, 41, 24);
-    color: white;
-    border-radius: 30px;
-    border: 2px double whitesmoke   ;
+main .Container .Product_image img{
+    flex: 2;
+    margin-left: 20px;
+    margin-top: 20px;
 }
-.button{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-
-/*Styling for  footer*/
+/*Style Declaration for the Footer Part*/
 footer{
     color: white;
     background-color: rgb(23, 41, 24);
